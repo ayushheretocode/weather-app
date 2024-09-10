@@ -17,22 +17,24 @@ body{
 }
 
 .search-section{
-    margin: 24px 0px;
+    max-width: 90%;
+    margin: 24px auto;
     display: flex;
+    justify-content: center;
     gap: 10px;
 }
 
 input{
     background-color: aliceblue;
     padding: 8px 12px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 10px;
     border: 2px solid grey;
 }
 
 button{
-    padding: 8px 12px;
-    font-size: 16px;
+    padding: 8px 16px;
+    font-size: 18px;
     border-radius: 8px;
     border: none;
     background-color: rgb(0, 207, 31);
