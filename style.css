@@ -17,22 +17,26 @@ body{
 }
 
 .search-section{
-    margin: 24px 12px;
+    max-width:90%;
+    margin: 24px 0;
+    max-width: 90%;
     display: flex;
-    justify-content: center;
     gap: 10px;
 }
 
 input{
+    width: 70%;
     background-color: aliceblue;
-    padding: 8px 12px;
-    font-size: 18px;
+    padding:12px 16px;
+    
+    font-size: 20px;
     border-radius: 10px;
     border: 2px solid grey;
 }
 
 button{
-    padding: 8px 16px;
+    width:30%;
+    padding: 8px 12px;
     font-size: 18px;
     border-radius: 8px;
     border: none;
