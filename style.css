@@ -17,8 +17,7 @@ body{
 }
 
 .search-section{
-    max-width: 90%;
-    margin: 24px auto;
+    margin: 24px 12px;
     display: flex;
     justify-content: center;
     gap: 10px;
